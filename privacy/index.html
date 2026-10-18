@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="description" content="Privacyverklaring voor Spatlappen CRM en de Gmail-integratie.">
+  <title>Privacyverklaring — Spatlappen CRM</title>
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../" aria-label="Spatlappen CRM — home"><span class="brand-mark" aria-hidden="true">S</span> Spatlappen CRM</a>
+    <nav aria-label="Hoofdnavigatie">
+      <a aria-current="page" href="./">Privacy</a>
+      <a href="../terms/">Gebruiksvoorwaarden</a>
+      <a href="../support/">Support</a>
+    </nav>
+  </header>
+  <main class="document">
+    <p class="eyebrow">Spatlappen CRM · Privacy</p>
+    <h1>Privacyverklaring</h1>
+    <p class="lead">In deze verklaring staat hoe Spatlappen CRM met gegevens omgaat, met bijzondere aandacht voor de Gmail-integratie.</p>
+    <p class="updated">Laatst bijgewerkt: 18 oktober 2026</p>
+
+    <section>
+      <h2>1. Wie is verantwoordelijk?</h2>
+      <p>Spatlappen CRM is een intern administratiesysteem van Spatlappen op maat. Voor vragen over privacy of het gebruik van Google-gegevens kun je contact opnemen via <a href="mailto:spatlappenopmaat@gmail.com">spatlappenopmaat@gmail.com</a>. De juridische naam en het vestigingsadres van de verwerkingsverantwoordelijke moeten door de eigenaar worden bevestigd en waar nodig aan deze verklaring worden toegevoegd.</p>
+    </section>
+    <section>
+      <h2>2. Welke Gmail-gegevens worden gebruikt?</h2>
+      <p>Wanneer een bevoegde gebruiker de Gmail-koppeling autoriseert, kan het CRM Gmail-berichtgegevens verwerken die nodig zijn om zakelijke correspondentie in het CRM te kunnen bekijken. Dit kan, afhankelijk van de in Google OAuth ingestelde machtigingen, gegevens omvatten zoals afzender, ontvanger, onderwerp, datum en berichtinhoud. Het CRM vraagt geen toegang voor een ander doel dan de Gmail-functie die aan de gebruiker wordt getoond.</p>
+      <p>De exacte Gmail API-scopes en de precieze velden die de koppeling ophaalt, moeten vóór publicatie door de eigenaar worden gecontroleerd aan de hand van de OAuth-configuratie en de actieve implementatie.</p>
+    </section>
+    <section>
+      <h2>3. Waarom worden deze gegevens gebruikt?</h2>
+      <p>Gmail-gegevens worden uitsluitend gebruikt om zakelijke e-mailcorrespondentie binnen het interne klantdossier te kunnen bekijken en beheren. E-mail wordt niet automatisch vanuit Gmail verstuurd. Uitgaande zakelijke e-mail wordt afzonderlijk via SMTP2GO verwerkt en vereist een expliciete verzendactie.</p>
+      <p>Google-gebruikersgegevens worden niet verkocht, niet gebruikt voor advertenties en niet gebruikt om AI-modellen te trainen. Gegevens worden niet voor een ander doel gebruikt dan de Gmail-functie die aan de gebruiker is uitgelegd.</p>
+    </section>
+    <section>
+      <h2>4. Toestemming verlenen en intrekken</h2>
+      <p>Toegang wordt verleend wanneer een bevoegde gebruiker de Google OAuth-toestemmingsstap doorloopt en de gevraagde machtigingen goedkeurt. De gebruiker kan de toestemming intrekken via de instellingen voor verbindingen met apps van derden in het Google-account: <a href="https://myaccount.google.com/connections">Google-accountverbindingen beheren</a>.</p>
+      <p>Intrekken voorkomt toekomstige toegang via die toestemming. Of het CRM ook een afzonderlijke verbreekfunctie biedt en hoe reeds opgehaalde gegevens daarna worden verwijderd, moet door de eigenaar worden bevestigd.</p>
+    </section>
+    <section>
+      <h2>5. Opslag en beveiliging</h2>
+      <p>De CRM-applicatie wordt gehost op Cloudflare Pages. Volgens de huidige CRM-architectuur worden centrale CRM-gegevens opgeslagen in Cloudflare D1 en privébestanden in Cloudflare R2. De Gmail-koppeling en de manier waarop tokens en gevoelige configuratie worden versleuteld, moeten vóór publicatie worden gecontroleerd aan de hand van de actieve productie-implementatie. Deze verklaring doet geen niet-geverifieerde uitspraak over versleuteling, sleutelbeheer of bewaartermijnen.</p>
+      <p>Toegang tot de CRM is bedoeld voor bevoegde gebruikers en wordt apart beveiligd. Gegevens die via Gmail beschikbaar komen, worden niet openbaar gemaakt. Verwerkers die nodig zijn om de CRM-infrastructuur te leveren, kunnen gegevens verwerken voor zover dat nodig is voor die dienstverlening.</p>
+    </section>
+    <section>
+      <h2>6. Bewaren en verwijderen</h2>
+      <p>Zakelijke correspondentie die in een CRM-dossier wordt opgenomen, wordt gebruikt zolang dat nodig is voor de zakelijke administratie. Er is in deze verklaring geen vaste bewaartermijn opgenomen: de eigenaar moet de bewaartermijn, de werking van verwijderen na het verbreken van Gmail en eventuele doorwerking naar back-ups nog bevestigen.</p>
+      <p>Voor een verzoek tot inzage of verwijdering kun je contact opnemen via <a href="mailto:spatlappenopmaat@gmail.com">spatlappenopmaat@gmail.com</a>. De beheerder beoordeelt het verzoek en licht toe wat kan worden verwijderd en welke wettelijke administratieplichten eventueel gelden.</p>
+    </section>
+    <section>
+      <h2>7. Gebruik volgens Google-beleid</h2>
+      <p>Het gebruik van Google-gegevens is beperkt tot de functie die zichtbaar en relevant is in Spatlappen CRM. Gmail-gegevens worden niet verkocht, niet gebruikt voor advertentiedoeleinden en niet gebruikt voor training van AI-modellen. Toegang door mensen is beperkt tot bevoegde CRM-gebruikers die de zakelijke correspondentie in het dossier moeten kunnen bekijken, en tot uitzonderlijke gevallen die nodig zijn voor beveiliging, ondersteuning of naleving van wettelijke verplichtingen.</p>
+    </section>
+    <aside class="owner-note">
+      <h2>Bevestiging door de eigenaar vóór OAuth-publicatie</h2>
+      <p>De volgende technische en organisatorische details konden niet onafhankelijk worden bevestigd in de beschikbare CRM-code en moeten vóór een Google OAuth-verificatie door de eigenaar worden gecontroleerd: de exacte Gmail-scopes en opgehaalde velden; opslag en versleuteling van OAuth-tokens; wie toegang heeft tot e-mailgegevens; bewaartermijnen en verwijdering, inclusief na intrekking en uit back-ups; en de volledige juridische identiteit en het adres van de verwerkingsverantwoordelijke.</p>
+    </aside>
+    <p class="back-link"><a href="../">← Terug naar Spatlappen CRM</a></p>
+  </main>
+  <footer class="site-footer">
+    <span>Spatlappen CRM</span>
+    <span>Vragen? <a href="mailto:spatlappenopmaat@gmail.com">E-mail support</a></span>
+  </footer>
+</body>
+</html>
